@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "901808692591",
+    "project_id": "disco-direction-443702-r4",
+    "storage_bucket": "disco-direction-443702-r4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901808692591:android:c823b07cebfedf0e5f5c9a",
+        "android_client_info": {
+          "package_name": "com.example.reseaydegusta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyzjXRyLB5fnxQa72Lrpt053jSZZBh_2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
