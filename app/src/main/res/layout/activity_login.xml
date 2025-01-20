@@ -8,11 +8,13 @@
     <!-- Logo o Imagen -->
     <ImageView
         android:id="@+id/logoImageView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:src="@drawable/ic_launcher_foreground"
         android:contentDescription="Logo"
         android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
         android:layout_marginBottom="24dp" />
 
     <!-- Correo Electrónico -->
@@ -30,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Contraseña"
+        android:padding="16dp"
         android:inputType="textPassword"
         android:layout_marginBottom="24dp" />
 
