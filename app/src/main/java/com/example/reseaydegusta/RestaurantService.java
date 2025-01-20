@@ -6,6 +6,7 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit22.http.Header;
 
 public interface RestaurantService {
 
@@ -14,4 +15,7 @@ public interface RestaurantService {
 
     @POST("/restaurants")
     Call<Void> createRestaurant(@Body Restaurant restaurant); // Se añadió @Body para enviar datos al servidor.
+
+    @POST("/restaurants")
+    Call<Void> createRestaurantWithAuth(@Body Restaurant restaurant, @Header("Authorization") String token);
 }
