@@ -30,11 +30,11 @@
             android:name=".AddRestaurantActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
